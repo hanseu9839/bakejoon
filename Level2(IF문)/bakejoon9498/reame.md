@@ -32,4 +32,4 @@ public class Main{
 }
 ```
 switch case를 사용하여 만들어주었다. 
-<img src="C:\Users\hans9\Desktop\Bakejoon\Level2(IF문)\bakejoon9498" width="40%"height="100px"></img></br>
+<img src="C:/Users/hans9/Desktop/Bakejoon/Level2(IF문)/bakejoon9498" width="40%"height="100px"></img></br>
