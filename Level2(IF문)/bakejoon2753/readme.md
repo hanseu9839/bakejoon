@@ -1,7 +1,7 @@
 bakejoon2753
 ============
-```
 [Bakejoon2753](https://www.acmicpc.net/problem/2753)
+```
 import java.util.Scanner;
 
 public class Main {
