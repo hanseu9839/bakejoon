@@ -31,5 +31,6 @@ public class Main{
 	}
 }
 ```
-switch case를 사용하여 만들어주었다. <br>
+switch case를 사용하여 만들어주었다. </br>
+*switch-case 문법*
 <img src="https://postfiles.pstatic.net/MjAyMTA3MDdfMjk5/MDAxNjI1NjQ3MjYwOTY4.0X4xcCrNEYHqHsrkt_8uGMKeg09-4tnHlgMjg2KWxVgg.SPFX0u-o2geJrL-a4H5dvpnNCwB5GJ8LrbpKBm1LV1wg.PNG.hans9839/image.png?type=w773" width="100%" height="300"></img></br>
