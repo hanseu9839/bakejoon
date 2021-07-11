@@ -13,6 +13,6 @@ public class Main {
         }else{
             System.out.println(A+" "+B);
         }
+        scan.close();
     }
 }
-3

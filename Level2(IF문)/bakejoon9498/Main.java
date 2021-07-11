@@ -23,5 +23,6 @@ public class Main{
 			System.out.println("F");
 			break;
 		}
+        sc.close();
 	}
 }
