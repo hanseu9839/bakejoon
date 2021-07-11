@@ -1,7 +1,8 @@
-bakejooon 1330 두 수 비교하기 
+*bakejooon 1330 두 수 비교하기*
 ========
-##[Bakejoon 1330](https://www.acmicpc.net/problem/1330)
-```
+[Bakejoon 1330](https://www.acmicpc.net/problem/1330)
+[마크다운 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+```java
 import java.util.Scanner;
 
 public class Main {
