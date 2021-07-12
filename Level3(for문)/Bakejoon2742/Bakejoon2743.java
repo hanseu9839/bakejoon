@@ -9,5 +9,6 @@ public class Bakejoon2743 {
         for(outputNum=inputNum;outputNum>=1;outputNum--){
             System.out.println(outputNum);
         }
+        scan.close();
     }
 }
