@@ -85,8 +85,9 @@ import java.io.*;
 ```
 한 줄씩 읽어오는 것이 아닌 공백 단위로 끊어준다면 StringTokenizer의 nextToken()을 이용하거나 String의 split()을 이용하면 됨 
 
-BufferedReader의 메소드들 
+# BufferedReader의 메소드들 
 |Modifier an Type|Method and Description|
+|-----------------|------------------------------|
 |void|close() : 입력스트림을 닫고 사용하던 자원들을 해제한다.|
 |void|mark(int, readAheadLimit): 스트림의 현재 위치를 마킹한다.|
 |boolean|markSupported() :스트림이 mark기능을 지원하는지 boolean으로 알려준다. |
