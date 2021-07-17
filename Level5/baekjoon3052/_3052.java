@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 
 
 public class _3052 {
+    
     public static void main(String[] args) throws NumberFormatException, IOException{
         int arr[] = new int[10];
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
