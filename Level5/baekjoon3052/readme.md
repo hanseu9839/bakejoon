@@ -128,7 +128,7 @@ List listC = new Vector();
 List list[] = new Stack();
 ```
 
-#값 추가하고 꺼내는 방법 - add,get
+# 값 추가하고 꺼내는 방법 - add,get
 ### 값들을 추가하고 인덱스에 해당하는 값을 하나씩 가져오거나 모든 데이터를 꺼내는 방법. 값을 추가하기 위해서는 add()함수를 사용한다. 아래 그림처럼 텍스트값 3개를 추가. 제일 아래에 있는 add()함수는 형태가 틀리다. 첫번째 인수로 요소를 넣었다. 요소값을 넣고 데이터를 추가하게 되면 해당 요소에 값을 교체하는 것이 아니라 추가하고 데이터들이 하나씩 밀리게 된다. 
 
 
@@ -199,4 +199,4 @@ listA.add(index, "홍길동 앞에 값 추가");
 # Reference 
 [녹두장군tistory](https://mainia.tistory.com/2323
 https://velog.io/@adam2/)<br/>
-[자료구조(Array와 List)](Array%EC%99%80-List%EA%B7%B8%EB%A6%AC%EA%B3%A0-Java-List)
+[자료구조(Array와 List](https://velog.io/@adam2/Array%EC%99%80-List%EA%B7%B8%EB%A6%AC%EA%B3%A0-Java-List)
