@@ -17,7 +17,6 @@ public class Baekjoon4673 {
             if (!check[i])
                 System.out.println(i);
         }
-
     }
 
     static int loopSum(int num) {
