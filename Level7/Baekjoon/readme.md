@@ -25,6 +25,10 @@ public class Baekjoon11654 {
     }
 }
 ```
+## 문제풀이
+ #### charAt이라는 함수를 사용해서 입력받은 버퍼에서 첫번째 String배열을 ch에 넣어주었다. ch는 int형이기 때문에 자연스럽게 타입변환이 되어진다. 그 후 출력하면됨.. 
+
+
 # 또 다른 풀이
 
 ```
@@ -39,8 +43,20 @@ public class Main{
 }
 
 ```
-### 문제풀이
- #### charAt이라는 함수를 사용해서 입력받은 버퍼에서 첫번째 String배열을 ch에 넣어주었다. ch는 int형이기 때문에 자연스럽게 타입변환이 되어진다. 그 후 출력하면됨.. 
+
+## String.toCharArray() 는 문자열을 한 글자씩 쪼개서 이를 char타입의 배열에 집어넣어주는 친절한 메소드이다.
+- String(문자열)을 char형 배열로 바꾼다. 
+```
+String s1 = "Hello World";
+char[] charArr = s1.toCharArray();
+
+```
+- 추가로, char형 배열을 합쳐서 하나의 String(문자열)로 만들 수 있다. 
+
+```
+//how to use method
+String s2 = new String(charArr);
+```
  
 
  # 참고문헌 
