@@ -49,7 +49,7 @@ public class Baekjoon2908 {
 
 그에 관련된 코드는 
 
-₩₩₩
+<pre><code>
 Scanner in = new Scanner(System.in);
 
 int A = in.nextInt();
@@ -61,7 +61,7 @@ A = Integer.parseInt(new StringBuilder.append(A).reverse().toString());
 B = Integer.parseInt(new StringBuilder.appned(B).reverse().toString());
 
 System.out.print(A > B  ? A:B);
-₩₩₩
+</code></pre>
 
 
 이 문제를 풀며 느낀거는 내가 푼 문제를 내가 풀었다고 그냥 넘어갈게 아니라 다른 사람은 어떻게 코드를 짜놓았는지 찾아 봐야 겠다고 생각을 하게 되는 계기가 되었다...
