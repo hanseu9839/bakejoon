@@ -3,4 +3,4 @@
 [Baekjoon2941 크로아티아](https://www.acmicpc.net/problem/2941, "Baekjoon2941 link")
 
 # 문제
- <img src="./Users/seunggyunhan/Documents/2.png" width="200px" height="300px">
+ ![백준] (./Users/seunggyunhan/Documents/2.png)
