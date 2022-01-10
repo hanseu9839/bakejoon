@@ -10,49 +10,28 @@ public class Baek2941 {
 
         int count =0;
 
-        for(int i=0;i<alpha.length();i++){
-            char one = alpha.charAt(i);
-            
-            if(one=='c'){
-                if(i<alpha.length()-1){
-                if(alpha.charAt(i+1) == '=')
-                 i++;
-                else if(alpha.charAt(i+1) == '-')
-                 i++; 
+      for(int i=0;i<alpha.length();i++){
+          char ch= alpha.charAt(i);
+          if(ch == 'c' && i<alpha.length()-1)
+          {
+              if(alpha.charAt(i+1)=='=' || alpha.charAt(i+1)=='-')
+                i++;
+          }else if(ch=='d'&&i<alpha.length()-1){
+              if(alpha.charAt(i+1)=='z'&&i<alpha.length()-2){
+                if(alpha.charAt(i+2)=='='){
+                    i+=2;
                 }
-            }else if(one=='d'){
-                if(i<alpha.length()-1){
-                if(alpha.charAt(i+1)=='z')
-                if(i<alpha.length()-2){
-                  if(alpha.charAt(i+2)=='=')
-                  i+=2;
-                }
-                else if(alpha.charAt(i+1)=='-')
+              }else if(alpha.charAt(i+1)=='-')
                     i++;
-                }
-            }else if(one=='l'){
-                if(i<alpha.length()-1){
-                if(alpha.charAt(i+1)=='j')
-                    i++;
-                }
-            }else if(one=='n'){
-                if(i<alpha.length()-1){
-                if(alpha.charAt(i+1)=='j')
-                    i++;
-                }
-            }else if(one=='s'){
-                if(i<alpha.length()-1){
-                if(alpha.charAt(i+1)=='=')
-                    i++;
-                }
-            }else if(one=='z'){
-                if(i<alpha.length()-1){
-                if(alpha.charAt(i+1)=='=')
-                    i++;
-                }
-            }
-            count++;
-        }
-        System.out.println(count);
+          } else if(ch=='l'&&i<alpha.length()-1 || ch=='n'&&i<alpha.length()-1){
+              if(alpha.charAt(i+1)=='j')
+              i++;
+          }else if(ch=='s'&&i<alpha.length()-1||ch=='z' && i<alpha.length()-1){
+              if(alpha.charAt(i+1)=='=')
+              i++;
+          }
+          count++;
+      }
+      System.out.println(count);
     }
 }
