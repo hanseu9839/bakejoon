@@ -29,16 +29,20 @@ public class baekjoon2775 {
         System.out.println(sb);
     }
     public static void make_APT(){
-        for(int i=0;i<15;i++){//층 
-            APT[i][0]=1;
+        for(int i=1;i<15;i++){//층 
             APT[0][i]=i;
         }
         for(int i=1;i<15;i++){
-            for(int j=2;j<15;j++){
-                APT[i][j] = APT[i-1][j]+APT[i][j-1];
+            for(int j=1;j<15;j++){
+                if(j==1)
+                    APT[i][j]=1;
+                else 
+                    APT[i][j] = APT[i-1][j]+APT[i][j-1];
             }
         }
     }
 }
   
+
+``` 
 
