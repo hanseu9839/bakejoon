@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Level9/Baekjoon9020",
         "Level9/Baekjoon4948",
         "Level9/Baekjoon2581",
         "Level9/Baekjoon1978",
@@ -27,6 +28,6 @@
         "Level3(for문)/Bakejoon2742",
         "Level3(for문)/Bakejoon11021",
         "Level2(IF문)/bakjoon1330",
-        "Level9/Baekjoon9020"
+        "Level9/Baekjoon1085"
     ]
 }
