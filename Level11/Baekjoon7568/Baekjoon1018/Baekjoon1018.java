@@ -32,7 +32,7 @@ public class Baekjoon1018 {
         int c = column - 7;
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
-                checkNumber(r,c);
+                checkNumber(i,j);
             }
         }
         System.out.println(min);
