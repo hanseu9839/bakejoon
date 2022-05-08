@@ -39,7 +39,7 @@ public class Baekjoon1018 {
     }
     public static void checkNumber(int r,int c){
         int end_row = r + 8;
-        int end_column = c+8;
+        int end_column = c + 8;
         int count =0;
         boolean TF = all[r][c]; //첫 번째 칸의 색 
         for(int i=r;i<end_row;i++){
