@@ -30,7 +30,6 @@ public class Baekjoon7568 {
                 if(p2.height>p1.height && p2.weight>p1.weight) rank++; 
             }
             rN[i]=rank;
-            
         }
         for(int x : rN){
             System.out.print(x+" ");
