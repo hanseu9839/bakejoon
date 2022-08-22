@@ -30,5 +30,6 @@ class Sum_Union{
         }
         solution(0,0,arr);
         System.out.println(answer);
+        scan.close();
     }
 }
