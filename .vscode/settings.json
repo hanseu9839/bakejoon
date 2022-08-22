@@ -1,5 +1,6 @@
 {
   "java.project.sourcePaths": [
+    "reAnswer",
     "Level9/Baekjoon9020",
     "Level9/Baekjoon4948",
     "Level9/Baekjoon2581",
@@ -32,6 +33,6 @@
     "Level11",
     "Level10",
     "BronzeV",
-    "reAnswer"
+    ""
   ]
 }
