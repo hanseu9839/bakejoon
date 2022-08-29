@@ -19,6 +19,8 @@ public class rQuickSort {
             while(pivot <= arr[hi] && lo < hi){
                 hi--;
             }
+            
+           
             swap(arr,lo,hi);
         }
         swap(arr,right,hi);
