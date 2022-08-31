@@ -77,4 +77,9 @@ public class Merge {
             a[i] = sorted[i];
         }
     }
+    public static void main(String[] args) {
+        int []a = {1,2,5,7,8,3,4,9,6};
+        merge_sort(a);
+        for(int x :a)   System.out.println(x);
+    }
 }
