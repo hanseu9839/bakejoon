@@ -1,5 +1,7 @@
 
 public class Merge {
+    private static int[] sorted; //합치는 과정에서 정렬하여 원소를 담을 임시 배열 
+
     /**
      * 부분리스트는 a배열의 left~right까지이다. 
      * @param a 정렬할 배열
@@ -7,7 +9,25 @@ public class Merge {
      * @param mid   배열의 중간점
      * @param right 배열의 끝 점
      */
-    private static void m(int[] a, int left, int mid, int right){
+    public static void merge_sort(int[] a){
+        sorted = new int[a.length];
+        merge_sort(a,0,a.length-1);
+        sorted = null;
+    }
+
+    // Top-Down 방식 구현 
+    private static void merge_sort(int[] a, int left, int right){
+        /*
+            left==right 즉, 부분리스트가 1개의 원소만 갖고 있는 경우 
+            더이상 쪼갤 수 없으므로 return 한다.
+        */
+        if(left == right) return;
+        int mid = (left + right) / 2; //절반 위치
+         merge_sort(a, left, mid);
+         merge_sort(a,mid+1,right);
+         merge(a,left,mid,right);
+    }
+    private static void merge(int[] a, int left, int mid, int right){
         int l = left;   // 왼쪽 부분리스트 시작점
         int r = mid + 1;    // 오른쪽 부분리스트의 시작점
         int idx = left; //채워 넣을 배열의 인덱스 
@@ -19,7 +39,7 @@ public class Merge {
             */
             if(a[l] <= a[r]){
                 sorted[idx] = a[l];
-                ldx++;
+                idx++;
                 l++;
             }
             else{
