@@ -18,7 +18,7 @@ public class MergeSort {
             */
             for(int l=0; l <= right - size; l += (2 * size)){
                 int low = l;
-                int mid = 1 + size - 1;
+                int mid = l + size - 1;
                 int hight = Math.min(l + (2 * size ) -1, right);
                 merge(a,low,mid,hight);
             }
