@@ -1,4 +1,3 @@
-
 public class Merge {
     private static int[] sorted; //합치는 과정에서 정렬하여 원소를 담을 임시 배열 
 
@@ -66,9 +65,11 @@ public class Merge {
          * 왼쪽 부분리스트의 나머지 원소들을 새 배열에 채워준다. 
          */
         else{
-            sorted[idx] = a[l];
-            idx++;
-            l++;
+            while(l<= mid){
+                sorted[idx] = a[l];
+                idx++;
+                l++;
+            }   
         }
         /*
         정렬된 새 배열을 기존의 배열에 복사하여 옮겨준다.
