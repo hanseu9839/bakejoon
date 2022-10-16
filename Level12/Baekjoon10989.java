@@ -23,7 +23,6 @@ public class Baekjoon10989 {
                 num[i]--;
             }
         }
-        System.out.println("--------------------");
         System.out.println(sb);
     }
 }
